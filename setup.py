@@ -4,8 +4,8 @@ with open("./README.md") as readme:
     long_description = readme.read()
 
 setup(
-    name="eth_kms_signer",
-    version="0.1.2",
+    name="kms_signer",
+    version="0.1.1",
     author="Viswanath Kapavarapu",
     author_email="viswanath.iit@gmail.com",
     description="KMS signer for Ethereum",
@@ -25,7 +25,7 @@ setup(
     install_requires=[
         "boto3>=1.18.44,<2.0.0",
         "py-ecc>=5.2.0,<6.0.0",
-        "ecdsa>=0.17.0,<1.0.0",
+        "ecdsa>=0.16.0,<1.0.0",
         "eth-account>=0.5.5,<1.0.0",
     ],
     python_requires=">=3.5",
